@@ -1,6 +1,5 @@
-
 body {
-  font-family: "roboto";
+  font-family: "roboto", sans-serif;
   background-color: #0d1117;
 }
 * {
@@ -14,12 +13,11 @@ li {
 a {
   text-decoration: none;
 }
-main{
+main {
   display: flex;
 }
-@media only screen and (max-width:768px) {
-  main{
+@media only screen and (max-width: 768px) {
+  main {
     display: block;
   }
-  
 }
