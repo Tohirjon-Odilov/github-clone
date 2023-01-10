@@ -1,0 +1,129 @@
+.over{
+    width: 1000px;
+    margin-left: 50px;
+    // background-color: rgb(199, 141, 141);
+    &_title{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        &_h3{
+color: aliceblue;
+font-size: 22px;
+        }
+        &_p{
+color: rgb(121, 125, 129);
+        }
+    }
+    &_cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content:space-between ;
+&_card{
+    width: 48%;
+    // width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    // background-color: rgb(104, 230, 230);
+    border: 1px solid rgb(149, 145, 145);
+    &_line{
+        display: flex;
+        justify-content: space-between;
+        
+        &_a{
+color: rgb(17, 140, 249);
+        }
+        &_p{
+// background-color: rgb(97, 102, 106);
+padding: 1px 8px;
+border: 1px solid rgb(180, 175, 175);
+border-radius: 9px;
+color: rgb(187, 193, 198);
+        }
+    }
+    &_p{
+        color: rgb(134, 142, 148);
+
+    }
+    &_span{
+    display: flex;
+    color:aliceblue;
+   
+    &_i{
+        color: red;
+        margin-right: 5px;
+    }
+    &_p{
+        color: rgb(187, 191, 195);
+    }
+}
+}
+
+    }
+}
+@media only screen and (max-width:1010px) {
+    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .over{
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0px;
+        // background-color: rgb(199, 141, 141);
+        &_title{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            &_h3{
+    color: aliceblue;
+    font-size: 20px;
+            }
+            &_p{
+    color: aliceblue;
+    font-size: 17px;
+            }
+        }
+        &_cards{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content:space-between ;
+    &_card{
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        // background-color: rgb(104, 230, 230);
+        border: 2px solid rgb(149, 145, 145);
+        &_line{
+            display: flex;
+            justify-content: space-between;
+            
+            &_a{
+    color: aliceblue;
+            }
+            &_p{
+    color: aliceblue;
+            }
+        }
+        &_p{
+            color: aliceblue;
+    
+        }
+        &_span{
+        display: flex;
+        color:aliceblue;
+    }
+    }
+    
+        }
+    }
+}

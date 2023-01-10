@@ -1,0 +1,25 @@
+
+body {
+  font-family: "roboto";
+  background-color: #0d1117;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+main{
+  display: flex;
+}
+@media only screen and (max-width:768px) {
+  main{
+    display: block;
+  }
+  
+}

@@ -1,0 +1,325 @@
+.section {
+  width: 52%;
+  // background-color: rgb(234, 47, 47);
+  padding: 20px;
+  margin-left: 46px;
+  color: #fff;
+}
+
+.find {
+  display: flex;
+  align-items: center;
+
+  // background-color: coral;
+  justify-content: space-between;
+  &_input {
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 400px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid rgb(108, 105, 105);
+    background-color: rgb(68, 65, 65);
+  }
+  &_sort {
+    display: flex;
+    margin-right: 10px;
+    gap: 10px;
+    &_span {
+      background-color: rgb(68, 65, 65);
+      // width: 100px;
+      display: flex;
+      border-radius: 7px;
+      align-items: center;
+      padding: 6px 14px;
+      color: rgb(192, 190, 190);
+
+      &_p {
+        margin: 0;
+        cursor: pointer;
+      }
+      &_i {
+        margin-left: 7px;
+      }
+    }
+  }
+  &_new_span {
+    display: flex;
+    align-items: center;
+    padding: 6px 19px;
+    background-color: rgba(0, 255, 0, 0.666);
+    border-radius: 10px;
+    &_i {
+    }
+    &_p {
+      margin: 0;
+      cursor: pointer;
+      margin-left: 8px;
+    }
+  }
+}
+.like {
+  display: none !important;
+}
+.find_sort_span_wrapper {
+  display: flex;
+  margin-top: 0px;
+  gap: 20px;
+}
+.find_mobile {
+  display: none;
+}
+.repo_left_one_span_h3 {
+  font-size: 26px;
+}
+.repo_left_one_span_p {
+}
+@media only screen and (max-width: 1210px) {
+  .section {
+    width: 87%;
+  }
+  .find {
+    display: flex;
+    align-items: center;
+
+    // background-color: coral;
+    justify-content: space-between;
+    &_input {
+      padding-left: 10px;
+      margin-right: 20px;
+      border-radius: 5px;
+      height: 30px;
+      border: 1px solid rgb(108, 105, 105);
+      background-color: rgb(68, 65, 65);
+    }
+    &_sort {
+      display: flex;
+      // margin-left: 100px;
+      gap: 10px;
+      &_span {
+        background-color: rgb(68, 65, 65);
+        // width: 100px;
+        display: flex;
+        border-radius: 7px;
+        align-items: center;
+        padding: 6px 14px;
+        color: rgb(192, 190, 190);
+
+        &_p {
+          margin: 0;
+          cursor: pointer;
+        }
+        &_i {
+          margin-left: 7px;
+        }
+      }
+    }
+    &_new_span {
+      display: flex;
+      align-items: center;
+      padding: 6px 19px;
+      background-color: rgba(0, 255, 0, 0.666);
+      border-radius: 10px;
+      &_i {
+      }
+      &_p {
+        margin: 0;
+        cursor: pointer;
+        margin-left: 8px;
+      }
+    }
+  }
+  .dislike {
+    display: none;
+  }
+  .like {
+    // display: block;
+    display: flex !important;
+  }
+
+  .find_sort_span {
+    display: block;
+    display: flex;
+  }
+}
+//========================== repo statrted   ======================
+
+.repo_wrapper {
+}
+.repo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  &_hr {
+    color: rgb(210, 222, 231);
+  }
+  &_left {
+    &_span_i {
+      color: red;
+    }
+    &_one {
+      &_span {
+        display: flex;
+        &_h3 {
+          color: rgb(32, 106, 242);
+          &_p2 {
+            color: rgb(166, 158, 158);
+          }
+        }
+
+        &_p {
+          padding: 0px 6px;
+          // background-color: #fff;
+          margin-left: 10px;
+          border: 1px solid rgb(167, 149, 149);
+          border-radius: 10px;
+        }
+      }
+    }
+
+    &_h3 {
+    }
+    &_p {
+      color: rgb(147, 138, 138);
+    }
+    &_p2 {
+    }
+    &_span {
+      display: flex;
+      &_i {
+      }
+      &_p {
+        margin-left: 7px;
+      }
+      &_p2 {
+        margin-left: 20px;
+      }
+    }
+  }
+  &_right {
+    &_button {
+      border: 1px solid rgb(140, 135, 135);
+      padding: 3px 12px;
+      border-radius: 10px 0px 0px 10px;
+      background-color: rgb(68, 62, 62);
+      &_i {
+        // color: rgb(228, 13, 13);
+      }
+    }
+    &_buttons {
+      border: 1px solid rgb(140, 135, 135);
+      padding: 3px 12px;
+      border-radius: 0px 10px 10px 0px;
+      background-color: rgb(68, 62, 62);
+    }
+    &_hr {
+      width: 200px;
+      color: green;
+      height: 5px;
+      margin-top: 60px;
+    }
+  }
+}
+.repo_left_span_p {
+  color: rgb(176, 170, 170);
+}
+.repo_left_span_p2 {
+  color: rgb(176, 170, 170);
+}
+@media only screen and (max-width: 1010px) {
+  .repo_right_hr {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    width: 100%;
+    // background-color: rgb(234, 47, 47);
+    color: aliceblue;
+    padding: 20px;
+    margin-left: 0px;
+  }
+  .find_mobile {
+    display: block;
+  }
+
+  .find {
+    display: none;
+    align-items: center;
+    width: 100%;
+
+    // background-color: coral;
+    justify-content: space-between;
+    &_input {
+      // padding-left: 10px;
+      order: 99;
+      width: 100%;
+      justify-content: center;
+      border-radius: 5px;
+      height: 30px;
+      border: 1px solid rgb(108, 105, 105);
+      background-color: rgb(68, 65, 65);
+    }
+    &_sort {
+      display: flex;
+      // margin-left: 100px;
+      gap: 10px;
+      &_span {
+        background-color: rgb(68, 65, 65);
+        // width: 100px;
+        order: 44;
+        display: flex;
+        border-radius: 7px;
+        align-items: center;
+        padding: 6px 14px;
+        color: rgb(192, 190, 190);
+
+        &_p {
+          margin: 0;
+          cursor: pointer;
+        }
+        &_i {
+          margin-left: 7px;
+        }
+      }
+    }
+    &_new_span {
+      display: flex;
+      align-items: center;
+      padding: 6px 19px;
+      background-color: rgba(0, 255, 0, 0.666);
+      border-radius: 10px;
+      &_i {
+      }
+      &_p {
+        margin: 0;
+        cursor: pointer;
+        margin-left: 8px;
+      }
+    }
+  }
+  .like {
+    display: none !important;
+  }
+  .find_sort_span_wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .find_input {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .find_input {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .find_input {
+    width: 100%;
+  }
+}
